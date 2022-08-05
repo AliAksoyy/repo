@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Lobster&family=Pattaya&family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,200;1,300;1,800&family=Roboto:ital,wght@0,300;1,100;1,300&family=Square+Peg&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./background_image.jpg);
+    
+}
+main {
+    width: 90%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.416);
+    margin: 50px auto;
+    border-radius: 6px;
+}
+header h1 {
+    text-align: center;
+    padding-top:20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+header h1 span {
+    color: red;;
+}
+header p {
+    text-align: center;
+    padding-top:10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 30%px;
+    
+}
+form {
+    background-color: rgba(0, 0, 0, 0.812);
+    width: 22%;
+    margin: 20px auto;
+    border-radius: 6px;
+    text-align:left;
+    padding: 1px;
+}
+.div1 {
+    /* border: 2px solid red; */
+    width:200px;
+    margin: 20px auto;
+    color: white;
+}
+.div1 input {
+    width: 210px;
+    height: 30px;
+
+}
+.div2 {
+    width:200px;
+    margin: 20px auto;
+    color: white;
+}
+.div2 input {
+    width: 210px;
+    height: 30px;
+
+}
+.div3 {
+    width:200px;
+    margin: 20px auto;
+    color: white;
+}
+.div3 input {
+    width: 210px;
+    height: 30px;
+
+}
+
+.div4 {
+    width:200px;
+    margin: 20px auto;
+    color: white;
+}
