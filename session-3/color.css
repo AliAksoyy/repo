@@ -1,0 +1,22 @@
+.box1 {
+    /* background-color: tomato; */
+    background-color: #ff0000;
+}
+.box2 {
+    /* background-color: limegreen; */
+    background-color: #0f0;
+}
+.box3 {
+    background-color: darkgoldenrod;
+}
+.box4 {
+    /* background-color:red */
+    background-color:hsla(236, 100%, 50%, .54)
+}
+.box5 {
+    /* background-color:olive */
+    background-color:rgba(184, 107, 26, 0.664)
+}
+.box6 {
+    background-color:magenta
+}

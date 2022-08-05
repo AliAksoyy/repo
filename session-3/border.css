@@ -1,0 +1,22 @@
+.p1 {
+    /* border: 3px solid red; */
+    border-style:ridge dashed dotted groove;
+    border-width:3px 10px 7px 3px;
+    border-color:red yellow blue green;
+}
+.p2 {
+    border: 2px dashed darkorange ;
+}
+.p3 {
+    border: 10px solid yellow;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    background-color:orange;
+}
+.p4 {
+    border: 20px double blue;
+}
+.p5 {
+    border: 15px groove orange;
+}
