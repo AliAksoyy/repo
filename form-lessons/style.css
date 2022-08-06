@@ -1,0 +1,36 @@
+#id {
+    margin-left:50px;
+}
+#name{
+    margin-left:150px;
+}
+#soyad{
+    margin-left:130px;
+}
+#yas{
+    margin-left:148px;
+}
+#email{
+    margin-left:96px;
+}
+#foto{
+    margin-left:83px;
+}
+#date{
+    margin-left: 53px;
+}
+#iş{
+    margin-left: 188px;
+}
+.is {
+    border: 2px solid red;
+    margin: 30px;
+    
+}
+.sektor {
+    border: 2px solid red;
+}
+
+#lang{
+    margin-left: 58px;
+}
