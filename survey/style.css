@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(./img/netflix-background-image\ 1.png);
+    background-image: url(./background_image.jpg);
     color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,8 +17,8 @@ body{
 }
 
 #container{
-    max-width: 1240px;
-    /* height: 1036px; */
+    /* max-width: 1240px; */
+    height: 1036px;
     background-color: rgba(0, 0, 0, 0.3);
     margin: auto;
     margin-top: 30px;
@@ -96,5 +96,5 @@ margin-top: 10px;
 
 @font-face {
     font-family: harvey ;
-    src: url(./fonts/constella.ttf);
+    src: url(./fonts/Inspiration-Regular.ttf);
 }
