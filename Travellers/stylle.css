@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    border: 2px solid red;
+    height: 100px;
+}
+.mail {
+    border: 2px solid red;
+    display: inline-block;
+    margin-left: 150px;
+
+}
+.mail p {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #656565;
+}
+.icons {
+    border: 2px solid red;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    margin-right: 150px;
+}
+.icons a {
+    padding: 10px;
+    color: #7ab730!important;
+    font-size: 1.2rem;
+}
+.icons a:hover {
+    color: #629227!important;
+}
+nav {
+    width: 80%;
+    border: 2px solid red;
+    margin: auto;
+    height: 80px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    vertical-align:bottom;
+    margin-top: -40px;
+}
+nav h1 {
+    display: inline-block;
+    font-size: 3rem;
+    color:  #629227
+}
+nav h1 span {
+    
+    color: #212121;
+}
+.navlinks {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+.navlinks ul li {
+    display:inline-block;
+    margin: 0px 10px;
+    list-style-type:none;
+    padding: 5px;
+}
+.navlinks a {
+    text-decoration: none;
+    padding: 20px 5px;
+    color: #212121;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.navlinks a:hover {
+    color: #7ab730;
+}
+#home {
+    color: #7ab730;
+}
