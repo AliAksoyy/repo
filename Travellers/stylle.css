@@ -44,6 +44,7 @@ nav {
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
     vertical-align:bottom;
     margin-top: -40px;
+    z-index: -2;
 }
 nav h1 {
     display: inline-block;
@@ -77,4 +78,13 @@ nav h1 span {
 }
 #home {
     color: #7ab730;
+}
+main {
+    background-image: url(./carousel-2.jpg);
+    background-position: cover;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    margin-top: -50px;
+    z-index: 2px;
+    
 }
