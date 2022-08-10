@@ -6,35 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
     <style>
-        a {
-            background-color:aqua;
+        a{
+            background-color: aqua;
             display: block;
             padding: 10px;
+            margin: 10px;
         }
-        span {
-            background-color:red;
+
+        span{
+            background-color: orange;
             margin: 50px;
-            padding: 20px;
+            /* padding: 20px; */
             display: block;
-        }
-        .box {
             width: 100px;
             height: 100px;
-            background-color:darkgoldenrod
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: darkorchid;
+            border: 2px solid red;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        #box2{
+            background-color: cyan;
+            /* display: none; */
+            /* visibility: hidden; */
+            
         }
     </style>
 </head>
 <body>
     
-    <!-- inline element -->
-    <a href="">Claruswauy</a>
+    
+    <!-- ------inline element-----  -->
+
+    <a href="">Clarusway</a>
     <button>Clarusway</button>
     <span>Hello my name is span</span>
+    
+    <!-- ------block element  -->
 
-    <!-- Block element -->
-    <div class="box1">Box1</div>
-    <div class="box2">Box2</div>
-    <div class="box3">Box3</div>
+    <div class="box">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box">box3</div>
 
 </body>
 </html>
