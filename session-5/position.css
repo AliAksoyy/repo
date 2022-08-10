@@ -1,0 +1,25 @@
+.main {
+    width: 100%;
+    background-color:rgb(168, 117, 117);
+    height: 1000px;
+    margin: 30px;
+    padding: 5px;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(158, 67, 158);
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 168, 104);
+    position:relative;
+    top: 200px;
+    left: 130px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(178, 178, 209);
+}
