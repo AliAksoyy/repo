@@ -1,0 +1,55 @@
+.container {
+    border: 3px solid red;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(./img/woman.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    color: yellow;
+    /* opacity: 0.5; */
+
+
+}
+#paragraf {
+    color: rgba(255, 0, 0, .7);
+}
+#img1 {
+    opacity: 0.3;
+    width: 10px;
+    transition: all ease-in-out 400ms;
+}
+#img1:hover {
+    opacity: 1;
+}
+#img2 {
+    opacity: 0.3;
+    transition: all ease-in-out 400ms;
+}
+#img2:hover {
+    opacity: 1;
+}
+#img3 {
+    opacity: 0.3;
+    transition: all ease-in-out 400ms;
+}
+#img3:hover {
+    opacity: 1;
+}
+#img4 {
+    opacity: 0.3;
+    transition: all ease-in-out 400ms;
+}
+#img4:hover {
+    opacity: 1;
+}
+#img5 {
+    opacity: 0.3;
+    transition: all ease-in-out 400ms;
+   
+}
+#img5:hover {
+    opacity: 1;
+    
+}
