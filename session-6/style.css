@@ -37,4 +37,13 @@ body{
 .div7{
     font-size: 0.5em;  /*96 px */
 }
+.div8 {
+    font-size: 1rem;
+}
+.div9 {
+    font-size: 2rem;
+}
+.div10 {
+    font-size: 3rem;
+}
 
