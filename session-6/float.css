@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 .img-float {
     width: 15%;
     float: left;
@@ -10,4 +13,22 @@
 }
 .clear {
     clear: both;
+}
+.box {
+    float: left;
+    font-size: 2rem;
+}
+
+.box1 {
+    background-color:darkcyan;
+    width: 20%
+    
+}
+.box2 {
+    background-color:darkgoldenrod;
+    width: 50%;
+}
+.box3 {
+    background-color:darkviolet;
+    width: 20%
 }
