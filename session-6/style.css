@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:rgb(216, 79, 79)
+}
+.abs {
+    background-color: aqua;
+    width: 5cm;
+}
+.div2 {
+background-color:chocolate;
+width: 80%;
+height: 50%;
+
+}
+.div3 {
+    background-color:yellow;
+    width: 50%;
+    height: 50vh;
+}
+.div4 {
+    background-color:rgb(89, 59, 226);
+    width: 50vw;
+}
