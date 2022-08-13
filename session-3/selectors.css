@@ -9,16 +9,16 @@ div p {
 }
 
 .container div p {
-    background-color: darkkhaki;
+    background-color: rgb(141, 134, 33);
 }
  
  /* p den sonra gelen di  */
 p + div{
-    background-color: aqua;
+    background-color: rgb(255, 0, 179);
 }
 
 p[title="baslik1"]{
-    background-color: crimson;
+    background-color: rgb(20, 33, 220);
 }
 p[title="baslik2"]{
     background-color: olive;
