@@ -30,7 +30,7 @@ body, ul, li, h1, h2, a{
     width: 100%;
   }
   nav{
-    background: #F4F4F4;
+    background: #fddfdf;
     padding: 20px;
     position: sticky;
     top: 106px;
@@ -69,7 +69,7 @@ body, ul, li, h1, h2, a{
     font-size: 48px;
   }
   article p{
-    line-height: 2em;
+    line-height: 3em;
     color: #4B4B4B;
   }
   article p::first-line{
