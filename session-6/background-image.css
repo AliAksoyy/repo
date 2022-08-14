@@ -19,13 +19,15 @@
     opacity: 0.3;
     width: 10px;
     transition: all ease-in-out 400ms;
+    cursor: pointer;
 }
 #img1:hover {
     opacity: 1;
 }
 #img2 {
-    opacity: 0.3;
+    opacity: .3;
     transition: all ease-in-out 400ms;
+    cursor: pointer;
 }
 #img2:hover {
     opacity: 1;
