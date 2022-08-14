@@ -1,26 +1,28 @@
 h2 {
-    text-align: center;
+    text-align:right;
+    margin-right: 10px;
 }
 #par1 {
    color: blue;
    text-align: center;
    text-transform: capitalize;
    direction:rtl;
-   column-count: 3;
+   column-count:6;
    column-rule: 3px solid red;
+   
 }
 #par2 {
     color: rgba(255,0,0,.5);
     text-align: right;
-    letter-spacing: 2px;
-    line-height: 2rem;
+    letter-spacing: 10px;
+    line-height: 3rem;
     direction: rtl;
     text-shadow: 3px 3px 5px red;
 }
 #par3 {
 color:#85f433;
 text-align: justify;
-text-decoration: line-through dashed red 5px;
+text-decoration: 2px line-through red;
 line-height: 2rem;
 
 }
@@ -28,7 +30,7 @@ line-height: 2rem;
 color: rgba(14, 2, 7, 0.925);
 text-decoration:underline;
 text-indent: 10px;
-word-spacing: 1rem;
+word-spacing: 2rem;
 font-family:  'Yellowtail', cursive;
 }
 #par5 {
