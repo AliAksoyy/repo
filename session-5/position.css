@@ -13,20 +13,21 @@
     
     /* margin: auto; */
     /* border-radius: 20px; */
-    height: 100px;
+    height: 120px;
     background-color: rgba(8, 38, 231, 0.801);
     /* position: fixed; */
     position: relative;
-    top: 0;
+    top: 0px;
     left: 0px;
     z-index: 1;
+    
 }
 .box2{
     width: 100px;
     height: 100px;
     background-color: rgba(232, 232, 13, 0.753);
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     /* top: 20px;
     left: 30px; */
     left: 30px;
@@ -36,13 +37,13 @@
     width: 100px;
     height: 100px;
     background-color: rgba(229, 7, 214, 0.721);
-    /* position: absolute; */
-    /* top: 20px;
+    /* position: absolute;
+    top: 20px;
     left: 80px; */
-    position: relative;
-    left: 0;
-    /* bottom: 65px; */
-    z-index: 50;
+    /* position: relative;
+    left:30px;
+    bottom: 65px;
+    z-index: 50; */
 }
 
 #icerde{
@@ -53,7 +54,9 @@
     color: yellow;
     position: absolute;
     bottom: 0;
-    right: 0;
+    /* right: 0; */
+    left: 0px;
+    
 }
 #icerde2{
     width: 30px;
@@ -62,13 +65,13 @@
     font-size: .5rem;
     color: yellow;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 0;
+    right: 0;
 }
 
 #paragraf{
     background-color: coral;
     position:fixed;
     top: 0px;
-    left: 0;
+    left: 0px;
 }
