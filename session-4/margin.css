@@ -14,21 +14,39 @@
 
 h1{
     background-color: aquamarine;
-    /* margin-bottom: 0; */
+    margin-bottom: 50px;
     padding: 20px 40px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
-
-#par1{
+.article {
     box-sizing: border-box;
     border: 5px solid blue;
     background-color: coral;
     /* margin-top: 0; */
     width: 250px;
     height: 150px;
-    margin: 50px auto; 
+    overflow: auto;
+    margin-bottom: 50px auto 100px;
+   
+}
+
+#par1{
+    /* box-sizing: border-box;
+    border: 5px solid blue;
+    background-color: coral; */
+    /* margin-top: 0; */
+    width: 250px;
+    height: 150px;
+    margin: 60px auto 0; 
     padding: 10px ; 
-    overflow: scroll;
+    /* overflow:auto */
+}
+#par3 {
+    width: 250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px ; 
 }
 
 #par2{
@@ -38,6 +56,7 @@ h1{
     /* margin-top: -80px; */
     padding-left: 20px;
     padding: 20px;
+    
     
 
 }
