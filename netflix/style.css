@@ -12,7 +12,7 @@ body {
 main {
     width: 90%;
     height: 100vh;
-    background-color:rgba(0, 0, 0, 0.416);
+    background-color:rgba(0, 0, 0, 0.253);
     margin: 50px auto;
     border-radius: 6px;
 }
@@ -29,7 +29,7 @@ header h1 span {
 }
 header p {
     text-align: center;
-    padding-top:10px;
+    padding-top:11px;
     color: white;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -38,7 +38,7 @@ header p {
     
 }
 form {
-    background-color: rgba(0, 0, 0, 0.816);
+    background-color: rgba(0, 0, 0, 0.658);
     width: 25%;
     margin: 10px auto;
     border-radius: 6px;
@@ -87,7 +87,7 @@ form {
 
 }
 .div1, .div2, .div3, .div4 label {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 
@@ -124,7 +124,7 @@ form {
 .div8 {
     /* background-color: red; */
     width: 60px;
-    margin: 10px auto;
+    margin: 15px auto;
     padding-bottom: 4px;
 }
 .div8 input {
