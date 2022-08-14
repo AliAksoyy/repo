@@ -1,10 +1,10 @@
 body {
-    padding: 50px;
+    padding: 60px;
 }
 a {
     /* border: 2px solid red; */
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    margin: 20px;
     text-decoration: none;
     background-color: darkorange;
     border-radius: 20px;
