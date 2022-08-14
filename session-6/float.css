@@ -2,7 +2,7 @@
     margin: 0;
 }
 .img-float {
-    width: 15%;
+    width: 14%;
     float: left;
     margin:0 20px ;
 }
@@ -15,7 +15,7 @@
     clear: both;
 }
 .box {
-    float: left;
+    float:left;
     font-size: 2rem;
 }
 
@@ -31,4 +31,7 @@
 .box3 {
     background-color:darkviolet;
     width: 20%
+}
+.clear1 {
+    clear: both;
 }
