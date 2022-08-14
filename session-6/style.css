@@ -4,12 +4,14 @@
 
 body{
     height: 100vh;
-    /* background-color: rgb(129, 87, 37); */
+    background-color: rgb(219, 211, 201);
     /* border: 2px solid red; */
 }
 .abs{
     background-color: aqua;
-    width: 5cm;
+    width: 30cm;
+    margin: auto;
+    padding:4px;
 }
 
 .div2{
@@ -35,7 +37,7 @@ body{
     font-size: 2em;  /*32 px*/
 }
 .div7{
-    font-size: 0.5em;  /*96 px */
+    font-size: 2em;  /*96 px */
 }
 .div8 {
     font-size: 1rem;
