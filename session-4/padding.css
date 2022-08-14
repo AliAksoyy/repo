@@ -8,7 +8,8 @@
 
 .container{
 background-color: lightsalmon;
-padding: 5px;
+padding: 10px;
+margin: 10px;
 
 }
 
@@ -27,7 +28,7 @@ padding: 5px;
     height: 150px;
     border: 10px solid blue;
     padding: 20px;
-    /* margin: 10px; */
+    margin: 10px;
 
 }
 
