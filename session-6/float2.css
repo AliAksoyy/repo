@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    border: 2px solid #000000;
+    /* border: 2px solid #000000; */
     text-align: center;
     border-radius: 10px;
 
@@ -22,7 +22,7 @@ aside {
     width: 25%;
     height: 300px;
     float: left;
-    margin-left: 10px;
+    margin-left: 11px;
 
 }
 article {
