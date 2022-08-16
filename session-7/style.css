@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Descendant */
+ .kutu p {
+    color: red;
+} 
+/* child selector */
+.kutu > p {
+    color: green;
+} 
+/* adjacent sibling selector */
+h1 + p {
+    color: yellow;
+}
+ /* general siblings selector  */
+
+ h1 ~ p {
+    color: rgb(71, 5, 5);
+} 
