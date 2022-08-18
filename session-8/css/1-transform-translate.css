@@ -50,16 +50,21 @@
     width: 100px;
     height: 50px;
     margin: 10px;
+    transition: background-color 1s, transform 1s
 }
 
 .x:hover {
     transform: translateX(150px);
+    background-color:greenyellow;
 }
 
 .y:active {
     transform: translateY(50px);
+    background-color:rgb(216, 159, 36);
 }
 
 .xy:active{
-    transform: translate(50px,45px)
+    transform: translate(50px,45px);
+    background-color:rgb(206, 32, 99);
 }
+
