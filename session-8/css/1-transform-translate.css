@@ -68,3 +68,25 @@
     background-color:rgb(206, 32, 99);
 }
 
+
+.btn {
+    padding: 1rem;
+    width: 7rem;
+    background-color:goldenrod;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    transition: background-color 1s, color 0.5s
+
+}
+.btn-div{
+    text-align: center;
+}
+.btn:hover{
+    background-color:gold;
+    color: rgb(84, 16, 209);
+}
+.btn:active{
+    transform: scale(90%);
+}
