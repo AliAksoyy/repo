@@ -36,6 +36,9 @@
 
 .yazi5 {
     background-color:fuchsia;
-}
 
+}
+.yazi5:active {
+    transform: scale(1.1,1.2);
+}
 /*************** TRANSLATE - TRANSITION ************/
