@@ -1,0 +1,10 @@
+@import ".theme.css";
+
+body {
+    font-family: var()
+}
+
+h1 {
+    font-family: var(--ff-dyna);
+    color: var(--mor);
+}

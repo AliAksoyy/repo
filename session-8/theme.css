@@ -43,7 +43,10 @@
   --ff-dyna: "DynaPuff", cursive;
   --ff-nunito: "Nunito", sans-serif;
   --ff-open-s: "Open Sans", sans-serif;
-}
-/* shadow */
-    --koyu-golge: 0px 0px 15px rgba(0, 0, 0, 0.4);
+
+  /* shadow */
+--koyu-golge: 0px 0px 15px rgba(0, 0, 0, 0.4);
      --acik-gogle: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+
+}
