@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-font-family: 'DynaPuff', cursive;
-font-family: 'Nunito', sans-serif;
-font-family: 'Open Sans', sans-serif;
+
 
 :root {
   --mavi1: hsl(205, 60%, 64%);
@@ -42,4 +40,11 @@ font-family: 'Open Sans', sans-serif;
   --koyu-yesil: hsl(125, 67%, 44%);
   --acik-yesil: hsl(125, 71%, 66%);
   --siyah: #222;
+
+  /* Fonts  */
+
+  --ff-dyna:'DynaPuff', cursive;
+  --ff nunito: 'Nunito', sans-serif;
+  --ff-open-sans: 'Open Sans', sans-serif;
 }
+
