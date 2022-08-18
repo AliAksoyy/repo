@@ -1,6 +1,25 @@
+.yazi {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: 50vw ;
+}
+
+
+
+
 /************ ROTATE **************/
-
-
+  /*! 90 ve 270 derecelerde yazılar tam dik olduklarından ve 3-boyutlu olarak bakamadığımız için gözükmezler */
+.yazi1 {
+    background-color:greenyellow;
+    transform: rotate(180deg);
+}
+.yazi2 {
+    background-color:tomato;
+}
+.yazi3 {
+    background-color:hotpink;
+}
 
 
 /*************** SCALE ************/
