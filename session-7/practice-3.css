@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  nav.nav-top {
+    background-image: linear-gradient(to right, rgb(119, 99, 99), rgba(207, 46, 207, 0.805));
+  }
+  
+  nav.nav-top img {
+    width: 50px;
+  }
+  
+  .nav-top .sign-in {
+    float: right;
+  }
+  .nav-top .sign-in a{
+    float: right;
+  }
