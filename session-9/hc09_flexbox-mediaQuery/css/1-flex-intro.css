@@ -53,3 +53,18 @@ overflow: auto;
     width: 5rem;
 
 }
+
+.container2 {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.container2 div {
+    background-color:khaki;
+    width: 5rem;
+
+}
