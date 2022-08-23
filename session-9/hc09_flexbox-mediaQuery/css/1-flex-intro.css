@@ -16,6 +16,11 @@
   /*! Yatay Hizalama: justify-content
   /** flex-start, flex-end,center, space-around,space-evenly, space-between*/
   justify-content: space-evenly;
+  
+
+/*! gap, flex içerisindeki elemanların dikey ve yatay boşluklarını belirlemek için kullanılabilir. ilk yazılan yatay (satırlar arası) boşluk, 2. yazılan ise dikey (sutunlar arası) boşluktur  */
+
+  gap:40px 80px
 }
 
 .container div {
