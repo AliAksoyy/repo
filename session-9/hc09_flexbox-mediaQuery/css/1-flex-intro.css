@@ -76,6 +76,6 @@ div.grow2 {
 div.grow3 {
     flex-grow: 3;
 }
-div.grow3 {
-    flex-grow: 4;
+div.grow4 {
+    flex-grow: 0;
 }
