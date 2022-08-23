@@ -66,5 +66,16 @@ overflow: auto;
 .container2 div {
     background-color:khaki;
     width: 5rem;
+    flex-grow: 1;
 
+}
+div.grow2 {
+    flex-grow: 2;
+}
+
+div.grow3 {
+    flex-grow: 3;
+}
+div.grow3 {
+    flex-grow: 4;
 }
