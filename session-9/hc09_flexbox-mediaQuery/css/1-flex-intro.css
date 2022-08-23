@@ -29,3 +29,27 @@
   height: 5rem;
   margin: 1rem;
 }
+/* *** Dikey hizilama */
+
+.container1 {
+height: 20rem;
+background-color:greenyellow;
+display: flex;
+gap: 20px 10px;
+padding: 0.5rem;
+flex-wrap: wrap;
+justify-content:space-around;
+/* align-items: center; */
+align-content: space-around;
+/* flex-direction: column; */
+overflow: auto;
+
+
+}
+
+.container1 div {
+    background-color:tomato;
+    height:5rem;
+    width: 5rem;
+
+}
