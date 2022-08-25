@@ -1,4 +1,100 @@
+@import "theme.css";
 * {
   box-sizing: border-box;
   margin: 0;
 }
+
+body {
+  font-family: var(--ff-roboto);
+  background-color: var(--mavi-9);
+  color: var(--siyah);
+  margin: 1rem;
+}
+
+h1 {
+  border: 2px solid rgb(90, 72, 72);
+  text-align: center;
+  background-color: var(--koyu-kirmizi);
+  width: 20rem;
+  padding: 0.5rem;
+  margin: 2rem auto;
+  border-radius:30px;
+  font-family: var(--monteserrat);
+  
+}
+.header {
+  background-color:var(--koyu-yesil);
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 2rem 0px;
+  font-weight:
+}
+.navbar {
+  display: flex;
+  justify-content:left;
+  background-color:var(--gri-3);
+  
+}
+.navbar a {
+  text-decoration: none;
+  color: var(--beyaz);
+  padding: 1rem;
+  transition: all 1s;
+
+  
+}
+.navbar a:hover {
+  background-color:var(--gri-7);
+  color: var(--siyah);
+  font-weight: 600;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: var(--gri-7);
+  justify-content: center;
+  border: 2px solid red;
+}
+.col {
+  
+  border: 2px solid black;
+}
+.fs {
+  background-color:var(--gri-5);
+  width: 35%;
+  padding: 1rem;
+}
+.aws {
+background-color:var(--gri-6);
+width: 20%;
+padding: 1rem;
+}
+.data {
+ background-color:var(--gri-7);
+ width: 30%;
+ padding: 1rem;
+  
+}
+.cms {
+background-color:var(--gri-8);
+width: 15%;
+padding: 1rem;
+
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+
+    body {
+      color: var(--beyaz);
+      background-color:var(--acik-kirmizi);
+
+    }
+    .col {
+      width: 50%;
+      margin: 0.5rem 0;
+    }
+   
+  
+}
+
