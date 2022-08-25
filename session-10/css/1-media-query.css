@@ -53,7 +53,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  background-color: var(--gri-7);
+  /* background-color: var(--gri-7); */
   justify-content: center;
   /* border: 2px solid red; */
   gap: 1rem 0rem;
@@ -101,6 +101,10 @@ padding: 1rem;
     .row {
       gap: 1rem 0rem;
     }
+    h1 {
+      width: 15rem;
+      font-size: 1.5rem;
+    }
 
    
 }
@@ -120,5 +124,10 @@ padding: 1rem;
   .col {
     width: 100%;
   }
+   h1 {
+      width: 12rem;
+      font-size: 1.2rem;
+    }
+
 }
 
