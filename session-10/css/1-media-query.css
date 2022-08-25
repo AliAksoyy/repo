@@ -27,7 +27,7 @@ h1 {
   padding: 1rem;
   font-size: 2rem;
   margin: 2rem 0px;
-  font-weight:
+  font-weight:400
 }
 .navbar {
   display: flex;
@@ -56,7 +56,7 @@ h1 {
   background-color: var(--gri-7);
   justify-content: center;
   /* border: 2px solid red; */
-  gap: 0.5rem 0.5rem
+  gap: 1rem 0rem;
 }
 .col {
   
@@ -113,6 +113,12 @@ padding: 1rem;
     flex-direction: column;
     /* align-items: center; */
     text-align: center;
+  }
+  .header {
+    display: none;
+  }
+  .col {
+    width: 100%;
   }
 }
 
