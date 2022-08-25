@@ -1,0 +1,15 @@
+*{
+    margin: 1rem;
+    
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 40vw 20rem;
+    grid-template-rows: 100px 300px 20vh;
+}
+.content {
+    background-color:wheat;
+    border: 2px solid red;
+}
