@@ -8,13 +8,14 @@
     background-color: black;
     width:25vw;
     height: 90vh;
-    /* margin: 5vh auto;  */
+    margin: 5vh auto; 
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 20%  repeat(5, 1fr);
     grid-gap: 1rem .5rem;
     padding:1rem;
+    
 
 }
 
@@ -27,7 +28,9 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 10px;
-    /* border: 2px solid red; */
+    cursor: pointer;
+
+   
     
 }
 .button:hover{
@@ -35,7 +38,7 @@
 }
 
 .panel{
-    background-color: cadetblue;
+    background-color: rgb(21, 53, 54);
     grid-area:1 / span 4;
 }
 
@@ -61,7 +64,7 @@
 
 @media screen and (max-width:992px){
     .container{
-    background-color:red;
+    background-color:rgb(128, 81, 81);
     width:30vw;
     height: 90vh;
     margin: 5vh auto; 
@@ -102,5 +105,6 @@
     .dot{
         background-color: goldenrod;
     }
+    
 }
 
