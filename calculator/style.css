@@ -8,13 +8,14 @@
     background-color: black;
     width:25vw;
     height: 90vh;
-    margin: 5vh auto; 
+    /* margin: 5vh auto;  */
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 20%  repeat(5, 1fr);
     grid-gap: 1rem .5rem;
     padding:1rem;
+
 }
 
 .button{
