@@ -15,7 +15,9 @@
 }
 
 .left img {
-    width:10px;
+    width:35px;
+    margin-top: 8px;
+    
 
     
     
@@ -24,7 +26,7 @@
     width: 33.33%;
     background-color: rgb(167, 167, 240);
     height: 8vh;
-    display: flex;
+    
 }
 .middle {
     width: 33.33%;
@@ -32,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-      background-color: rgb(167, 167, 240);
+    background-color: rgb(167, 167, 240);
 }
 .middle div {
     margin: 1rem;
@@ -41,10 +43,15 @@
 .right {
     width: 33.33%;
     text-align: right;
-    padding: 2rem;
+    height: 8vh;
     background-color: rgb(167, 167, 240);
 }
 .right i {
-    margin: 1px;
-    font-size: 2rem
+    margin-top: 8px;
+    margin-right: 6px;
+    font-size: 2rem;
+    
+}
+.right i:nth-last-child(1) {
+    margin-right: 15px;
 }
