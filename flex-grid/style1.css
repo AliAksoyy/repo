@@ -45,6 +45,11 @@
     color: rgb(107, 105, 105);
     font-size: 1.35rem;
 }
+.middle div:hover {
+
+    color: blue;
+    transform: scale(1.4);
+}
 .right {
     width: 33.33%;
     text-align: right;
@@ -55,11 +60,12 @@
     margin-top: 8px;
     margin-right: 6px;
     font-size: 2rem;
-    
+    transition: all 1s ease-in-out;
 }
 .right i:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.5); */
     transform: rotate(360deg);
+    color: blue;
 
 
 }
