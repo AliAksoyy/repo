@@ -3,42 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    border
+}
 
 .row {
     border: 2px solid rgb(158, 151, 151);
     display: flex;
-    text-align: center;
+    justify-content: center;
+    
 }
 .logo {
     height: 10vh;
     background-color:aqua;
     color: white;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
+
 }
 .menu {
     background-color:rgb(19, 97, 97);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner {
     height: 17vh;
     color: aliceblue;
     background-color:coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .div1 {
     height: 45vh;
     color: aliceblue;
     background-color:rgb(79, 116, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div2 {
     height: 45vh;
     color: aliceblue;
     background-color:rgb(45, 127, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div3 {
     height: 45vh;
     color: aliceblue;
     background-color:rgb(12, 134, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div4 {
     height: 10vh;
@@ -49,16 +72,25 @@
     height: 10vh;
     color: aliceblue;
     background-color:rgb(196, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div6 {
     height: 10vh;
     color: aliceblue;
     background-color:rgb(223, 209, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer {
     height: 15vh;
     color: aliceblue;
     background-color:rgb(42, 180, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-1 {
