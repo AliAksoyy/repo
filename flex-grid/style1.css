@@ -57,6 +57,12 @@
     font-size: 2rem;
     
 }
+.right i:hover {
+    transform: scale(1.1);
+    transform: rotate(360deg);
+
+
+}
 .right i:nth-last-child(1) {
     margin-right: 15px;
 }
