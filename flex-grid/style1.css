@@ -6,7 +6,7 @@
 
 
 .row {
-    border: 2px solid rgb(158, 151, 151);
+    
     display: flex;
     justify-content: center;
     
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border: 2px solid gainsboro;
 
 }
 .menu {
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid gainsboro;
 }
 .banner {
     height: 17vh;
@@ -35,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid gainsboro;
 
 }
 .div1 {
@@ -44,6 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid gainsboro;
 }
 .div2 {
     height: 45vh;
@@ -52,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid gainsboro;
 }
 .div3 {
     height: 45vh;
@@ -60,11 +64,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid gainsboro;
 }
 .div4 {
     height: 10vh;
     color: aliceblue;
     background-color:rgb(218, 44, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div5 {
     height: 10vh;
@@ -77,18 +85,19 @@
 .div6 {
     height: 10vh;
     color: aliceblue;
-    background-color:rgb(223, 209, 130);
+    background-color:rgb(87, 80, 43);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .footer {
-    height: 15vh;
+    height: 18vh;
     color: aliceblue;
     background-color:rgb(42, 180, 116);
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid gainsboro;
 }
 
 .col-1 {
