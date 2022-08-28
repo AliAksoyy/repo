@@ -6,6 +6,66 @@
 }
 body {
     margin: 4rem;
+    font-size: 17px;
 }
 
-
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header"
+                            "box1 box2 box3 side"
+                            "main main main side"
+                            "footer footer footer footer";
+   
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 10px;
+    grid-gap: 10px;
+}
+.header {
+    grid-area: header;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    
+    
+}
+.box1 {
+    grid-area:box1;
+    height: 20vh;
+    background-color:green
+}
+.box2 {
+    grid-area: box2;
+    background-color:rgb(160, 189, 160)
+}
+.box3 {
+    grid-area: box3;
+    height: 20vh;
+    background-color:rgb(40, 116, 146)
+}
+.box4 {
+    grid-area: main;
+    height: 20vh;background-color:rgb(41, 49, 117)
+}
+.box5 {
+    grid-area: side;
+    height: 43vh;
+    background-color:red
+}
+.footer {
+    grid-area:footer ;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+div {
+    
+    color: azure;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}

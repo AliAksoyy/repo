@@ -86,5 +86,8 @@ header {
 }
 .div {
     background-color: rgba(72, 72, 248, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
