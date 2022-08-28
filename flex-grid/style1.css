@@ -7,11 +7,12 @@
 .header {
     width: 80%;
     height: 15vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .left img {
@@ -24,7 +25,7 @@
 }
 .left {
     width: 33.33%;
-    background-color: rgb(167, 167, 240);
+    background-color: rgb(227, 227, 245);
     height: 8vh;
     
 }
@@ -34,17 +35,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(167, 167, 240);
+    background-color: rgb(204, 204, 223);
 }
 .middle div {
     margin: 1rem;
     padding: .4rem;
+    color: rgb(107, 105, 105);
+    font-size: 1.35rem;
 }
 .right {
     width: 33.33%;
     text-align: right;
     height: 8vh;
-    background-color: rgb(167, 167, 240);
+    background-color: rgb(158, 189, 204);
 }
 .right i {
     margin-top: 8px;
