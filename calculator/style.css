@@ -39,7 +39,7 @@
 
 .panel{
     background-color: rgb(21, 53, 54);
-    grid-area:1 / span 4;
+    grid-column:  span 4
 }
 
 .gray-op{
@@ -80,11 +80,11 @@
     grid-area:1 / span 3;
     }  
     .mult{
-        grid-area:7 / 2 / 8 / 3;
+        grid-area:7 / 2 
     } 
 
     .sub{
-        grid-area: 7/ 3 /8 /4;
+        grid-area: 7/ 3 
     }
     .div{
         grid-area: 7/ 1 / 8 /2 ;
