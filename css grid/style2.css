@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2fr 1.5fr 1fr;
+    grid-gap: 0.5rem;
+}
+nav {
+background-color:rgb(171, 171, 223);
+}
+
+main {
+background-color:rgb(171, 171, 223);
+}
+.div1 {
+    background-color:rgb(171, 171, 223);
+}
+.div2 {
+background-color:rgb(171, 171, 223);
+}
+.div3 {
+background-color:rgb(171, 171, 223);
+}
+.div4 {
+background-color:rgb(171, 171, 223);
+}
+footer {
+   background-color:rgb(171, 171, 223); 
+}
