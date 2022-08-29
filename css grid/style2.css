@@ -6,35 +6,46 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2fr 1.5fr 1fr;
+    grid-template-rows: 8vh 45vh 25vh 13vh;
     grid-gap: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
 }
 nav {
 background-color:rgb(171, 171, 223);
-grid-area: span 4;
+grid-area: 1/1/2/5;
+padding: 1rem;
 }
 
 main {
 background-color:rgb(171, 171, 223);
 grid-area: 2/2 / 3/span 3;
+padding: 1rem;
+
 }
 .div1 {
     background-color:rgb(171, 171, 223);
     grid-area: 2/ 1/ span 3/2;
+    padding: 1rem;
 }
 .div2 {
 background-color:rgb(171, 171, 223);
 grid-area: 3/ 2/ 4/ 3;
+padding: 1rem;
 }
 .div3 {
 background-color:rgb(171, 171, 223);
 grid-area: 3/ 3/ 4/ 4;
+padding: 1rem;
 }
 .div4 {
 background-color:rgb(171, 171, 223);
 grid-area: 3/ 4/ 4/ 5;
+padding: 1rem;
 }
 footer {
    background-color:rgb(171, 171, 223); 
-   grid-area:span 4 ; 
+   grid-area: 4/2/5/5; 
+   padding: 1rem;
 }
