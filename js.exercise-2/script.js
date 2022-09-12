@@ -8,4 +8,4 @@ console.log(btnsOpenModal)
 
 for(let i in btnsOpenModal) {
     console.log(btnsOpenModal[i].textContent)
-}
+};
