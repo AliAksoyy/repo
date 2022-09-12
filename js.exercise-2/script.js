@@ -7,5 +7,5 @@ const btnsOpenModal = document.querySelectorAll(".show-modal")
 console.log(btnsOpenModal)
 
 for(let i in btnsOpenModal) {
-    console.log(btnsOpenModal[i].innerHTML)
+    console.log(btnsOpenModal[i].textContent)
 }
