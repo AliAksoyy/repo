@@ -17,6 +17,9 @@ document.querySelector(".check").addEventListener("click", function() {
     const a = Number(document.querySelector('.guess').value);
     console.log(a, typeof a)
 
-    
+    if(!a) {
+    document.querySelector(".message").textContent = "noo";
+
+    }
  
 })
