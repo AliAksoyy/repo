@@ -27,7 +27,7 @@ document.querySelector(".check").addEventListener("click", function() {
     if(!guess) {
     document.querySelector(".message").textContent = "😢 No number";
     } else if (guess === secretNumber) {
-         document.querySelector('.message').innerText = '😍 Correct Number';
+        displayMessage("'😍 Correct ")
 
          document.querySelector("body").style.backgroundColor = "green";
          document.querySelector(".number").style.width = "30rem";
@@ -38,31 +38,19 @@ document.querySelector(".check").addEventListener("click", function() {
             document.querySelector(".highscore").innerText = highScore
          }
         
-    }else if (guess>secretNumber) {
-
-         if (score > 1) {
-           document.querySelector('.message').innerText = '💥Too higher';
-           score--;
+    }else if (guess !==secretNumber) {
+         if(score>1) {
+            document.querySelector('.message').innerText = guess > secretNumber ? "To high" : "Too lower";
+            score--;
            document.querySelector(".score").innerText = score;
-        } else {
-          document.querySelector('.message').textContent = 'you lost';
-          document.querySelector('.score').innerText = 0;
-        }
-
-       
-    }else if (guess<secretNumber) {
-         if (score > 1) {
-           document.querySelector('.message').innerText = '💥Too lower';
-           score--;
-           document.querySelector(".score").innerText = score;
-         } else {
+         }   
+        
+         else {
            document.querySelector('.message').textContent = 'you lost';
            document.querySelector('.score').innerText = 0;
          }
-      
-    }
     
-})
+}
 
 document.querySelector(".again").addEventListener("click", function() {
     score = 20
@@ -72,8 +60,12 @@ document.querySelector(".again").addEventListener("click", function() {
     document.querySelector(".number").textContent = "?"
     document.querySelector(".guess").value = "";
     document.querySelector("body").style.backgroundColor = "#222";
-    document.querySelector(".number").style.width = "15rem"
+    document.querySelector(".number").style.width = "15rem";
 
 
 
 })
+
+const displayMessage = function(message) {
+    document.querySelector(".message").textContent = message
+}
