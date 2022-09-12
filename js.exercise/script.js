@@ -14,5 +14,9 @@
 // console.log(document.querySelector('.guess').value);
 
 document.querySelector(".check").addEventListener("click", function() {
-    document.querySelector(".guess").value
+    const a = Number(document.querySelector('.guess').value);
+    console.log(a, typeof a)
+
+    
+ 
 })
