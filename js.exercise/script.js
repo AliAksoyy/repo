@@ -26,15 +26,28 @@ document.querySelector(".check").addEventListener("click", function() {
     if(!guess) {
     document.querySelector(".message").textContent = "😢 No number";
     } else if (guess === secretNumber) {
-        document.querySelector(".message").innerText = "😍 Correct Number";
+        if(score>1) {
+            document.querySelector('.message').innerText = '😍 Correct Number';
+        } else {
+            document.querySelector(".message").textContent = "you lost";
+            document.querySelector(".score").innerText = 0
+        }
+        
     }else if (guess>secretNumber) {
+        if (score > 1) {
+          document.querySelector('.message').innerText = '😍 Correct Number';
+        } else {
+          document.querySelector('.message').textContent = 'you lost';
+          document.querySelector('.score').innerText = 0;
+        }
+
         document.querySelector(".message").textContent = "🅰Too high";
         score--;
         document.querySelector(".score").textContent = score;
     }else if (guess<secretNumber) {
         document.querySelector(".message").innerText = "💥Too lower";
         score--;
-        document.getElementsByClassName(".score").textContent = score;
+        document.querySelector(".score").innerText = score;
     }
     
 })
