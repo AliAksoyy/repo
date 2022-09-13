@@ -59,7 +59,9 @@ btnHold.addEventListener("click", function () {
       console.log(scores[activePlayer]);
 
       if (scores[activePlayer] >= 20) {
-        playing = false
+        playing = false;
+         diceEl.classList.add('hidden');
+
         document
           .querySelector(`.player--${activePlayer}`)
           .classList.add('player--winner');
