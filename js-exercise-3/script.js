@@ -20,8 +20,17 @@ score0El.textContent = 0;
 score1El.innerText = 0;
 diceEl.classList.add("hidden")
 
+const scores = [0,0]
 let currentScore = 0
-let activePlayer = 0
+let activePlayer = 0;
+
+const swtichPlayer = function() {
+    document.getElementById(`current--${activePlayer}`).textContent = 0;
+    currentScore = 0
+    activePlayer = activePlayer === 0 ? 1 : 0
+    player0El.classList.toggle("player--active")
+    player1El.classList.toggle("player--active")
+}
 
 btnRoll.addEventListener("click", function() {
     const dice = Math.trunc(Math.random() * 6) +1;
@@ -41,6 +50,17 @@ btnRoll.addEventListener("click", function() {
     }
 
 
+})
+
+btnHold.addEventListener("click", function () {
+    scores[activePlayer] += currentScore
+
+    document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer]
+
+    if(scores[activePlayer] >=20) {
+        document.querySelector(`player--${activePlayer}`).classList.add("player--winner")
+        document.querySelector(`.player--${activePlayer}`).classList.remove("player-winner")
+    }
 })
 
 
